@@ -12,7 +12,7 @@ CONFIG(debug,debug|release){
 
 DEFINES += APPLICATION_LIBRARY
 
-TRANSLATIONS = ../../../100_Generate/10_Language/HhIOCardBase.ts
+TRANSLATIONS = ../../../100_Generate/10_Language/Application.ts
 
 SOURCES += \
     Application.cpp

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE QtCreatorProject>
-<!-- Written by QtCreator 4.11.1, 2025-10-17T17:14:55. -->
+<!-- Written by QtCreator 4.11.1, 2025-10-21T10:35:22. -->
 <qtcreator>
  <data>
   <variable>EnvironmentId</variable>
@@ -447,7 +447,7 @@
     <value type="bool" key="RunConfiguration.UseQmlDebugger">false</value>
     <value type="bool" key="RunConfiguration.UseQmlDebuggerAuto">true</value>
     <value type="QString" key="RunConfiguration.WorkingDirectory"></value>
-    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/xjhao/work/Motion/VWMotion/99_VWMotion/00_Main/Main</value>
+    <value type="QString" key="RunConfiguration.WorkingDirectory.default">D:/xjhao/work/Motion/VWMotion/100_Generate/03_R_x64</value>
    </valuemap>
    <value type="int" key="ProjectExplorer.Target.RunConfigurationCount">3</value>
   </valuemap>

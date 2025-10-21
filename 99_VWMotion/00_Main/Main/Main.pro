@@ -2,6 +2,15 @@ QT       += core gui
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
+CONFIG += debug_and_release
+CONFIG(debug,debug|release){
+    TARGET = VWMotion
+}else{
+    TARGET = VWMotion
+}
+
+TRANSLATIONS = ../../../100_Generate/10_Language/VWMotion.ts
+
 CONFIG += c++11
 
 # The following define makes your compiler emit warnings if you use
@@ -26,3 +35,17 @@ FORMS +=
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+CONFIG += debug_and_release
+CONFIG(debug,debug|release){
+    RC_FILE = $$PWD/rc/x64/debug/VWMotion.rc
+}else{
+    RC_FILE = $$PWD/rc/x64/release/VWMotion.rc
+}
+
+UI_DIR += ../tmp
+RCC_DIR += ../tmp
+MOC_DIR += ../tmp
+OBJECTS_DIR += ../tmp
+
+include(../../../91_Pri/00_Dll.pri)
